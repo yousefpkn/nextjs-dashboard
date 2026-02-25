@@ -18,9 +18,10 @@
         "name": "next"
       }
     ],
-    
+
+    // ✅ بهترین تنظیم alias برای Next.js Dashboard
     "paths": {
-      "@/*": ["./app/*"]
+      "@/*": ["./*"]     // همه importهای @/ مستقیم از root پروژه پیدا می‌شن
     }
   },
   "include": [
